@@ -20,7 +20,8 @@ historyItems.then(res => {
   }
 });
 
-console.log(chrome);
+// console.log(chrome);
+
 document.getElementById("deleteHistoryBtn").addEventListener("click", deleteHistory);
 
 function deleteHistory() {
